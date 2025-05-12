@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['crack', 'dent']
+
+roboflow:
+  workspace: youssef-donia-fhktl
+  project: aircraft-damage-detection-2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/youssef-donia-fhktl/aircraft-damage-detection-2/dataset/3
